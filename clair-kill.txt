@@ -1,0 +1,4 @@
+docker rm -f clair-scanner clair clair-postgres
+docker volume rm clair-postgres
+docker network rm ci
+rm -rf config.yaml
